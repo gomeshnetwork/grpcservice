@@ -1,0 +1,15 @@
+{
+    "gomesh": {
+        "service": {
+            "grpcservice.default": {
+                "laddr": ":8080"
+            },
+            "test.grpc": {
+                "backoff": "10s"
+            },
+            "test.grpc.client": {
+                "remote": "127.0.0.1:8080"
+            }
+        }
+    }
+}
