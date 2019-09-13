@@ -31,12 +31,10 @@ github.com/golang/mock v1.1.1/go.mod h1:oTYuIxOrZwtPieC+H1uAHpcLFnEyAGVDL/k47Jfb
 github.com/golang/protobuf v1.2.0 h1:P3YflyNX/ehuJFLhxviNdFxQPkGK5cDcApsge1SqnvM=
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/golang/protobuf v1.3.2/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
-github.com/gomeshnetwork/gomesh v0.0.0-20190913125852-a0cf8c4cbd25 h1:WLaXORWotyXD1594FG3ZR4ei9tSwKA1mpJ5DichsVew=
-github.com/gomeshnetwork/gomesh v0.0.0-20190913125852-a0cf8c4cbd25/go.mod h1:WtuiYl7ht5HojbNPnU9DTla2gsbnWrwbWZKw0ni1vCw=
-github.com/gomeshnetwork/gomesh v0.0.0-20190913135314-f2cadd0cade7 h1:efZncok6kps0djAKubzbOwQ+8ycvIQdKLPvTnA8ceMQ=
-github.com/gomeshnetwork/gomesh v0.0.0-20190913135314-f2cadd0cade7/go.mod h1:WtuiYl7ht5HojbNPnU9DTla2gsbnWrwbWZKw0ni1vCw=
-github.com/gomeshnetwork/localservice v0.0.0-20190913130404-bea963367085 h1:ZTzzczOLsiHKGP1qDPpgaTXiZ9IA7IRJY1But7DNJ14=
-github.com/gomeshnetwork/localservice v0.0.0-20190913130404-bea963367085/go.mod h1:6gzmWOsdi/60622AARjbLQpopgmuFzdlp588idOBHCE=
+github.com/gomeshnetwork/gomesh v0.0.0-20190913144945-49ca18b879cd h1:lFH1ieD04/+/81O/+zUNSN4x/m+pRTRKf8XtVvxUmYE=
+github.com/gomeshnetwork/gomesh v0.0.0-20190913144945-49ca18b879cd/go.mod h1:WtuiYl7ht5HojbNPnU9DTla2gsbnWrwbWZKw0ni1vCw=
+github.com/gomeshnetwork/localservice v0.0.0-20190913145210-c18cd35ef837 h1:gUjo3Zw+EmTP1eHurrYG0mR13sJDtVw+YnrWKKzzniQ=
+github.com/gomeshnetwork/localservice v0.0.0-20190913145210-c18cd35ef837/go.mod h1:1vMC5i/2sSmRKc45SHFLaoooOGNOfyb/EdvrrZyjv28=
 github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5aqRK0M=
 github.com/google/uuid v1.0.0 h1:b4Gk+7WdP/d3HZH8EJsZpvV7EtDOgaZLtnaNGIu1adA=
 github.com/google/uuid v1.0.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
