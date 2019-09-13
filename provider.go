@@ -5,6 +5,7 @@ import (
 	"net"
 
 	"github.com/dynamicgo/slf4go"
+	"github.com/dynamicgo/xerrors"
 
 	"github.com/dynamicgo/go-config"
 )
@@ -16,11 +17,11 @@ type builtinProvider struct {
 }
 
 func newBuiltinProvider(config config.Config) (Provider, error) {
-
-	listener, err := net.Listen("tcp", config.Get("laddr").String(":8080"))
+	laddr := config.Get("laddr").String(":8080")
+	listener, err := net.Listen("tcp", laddr)
 
 	if err != nil {
-		return nil, err
+		return nil, xerrors.Wrapf(err, "listen on %s error", laddr)
 	}
 
 	return &builtinProvider{
